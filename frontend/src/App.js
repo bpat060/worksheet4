@@ -3,7 +3,7 @@ import {
   Route,
   NavLink,
   BrowserRouter as Router,
-  Redirect
+  Navigate
 } from "react-router-dom";
 import Home from "./pages/Home";
 import SEPractice from "./pages/SE-Practice";
@@ -24,7 +24,7 @@ const App = () =>  {
             <Route  path="/SEPractice" component={SEPractice}/>
             <Route  path="/SubmitArticle" component={SubmitArticle}/>
             <Route exact path="/404" component={NotFoundPage}/>
-            <Redirect to="/404" />
+            <Navigate to="/404" />
           </div>
         </div>
         </Router>
