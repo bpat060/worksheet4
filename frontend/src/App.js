@@ -5,8 +5,8 @@ import {
   BrowserRouter,
   Routes
 } from "react-router-dom";
-import "./index.css";
 
+import "./index.css";
 import Home from "./pages/Home";
 import SEPractice from "./pages/SE-Practice";
 import SubmitArticle from "./pages/Submit-Article";
@@ -34,5 +34,4 @@ const App = () => {
     </BrowserRouter>
   );
 }
-
 export default App;
