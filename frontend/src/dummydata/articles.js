@@ -50,4 +50,4 @@ const articles = [
       evidence: "weak against",
     },
   ];
-    module.exports = articles;
+    export default articles;
